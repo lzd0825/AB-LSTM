@@ -58,14 +58,24 @@ ${AB-LSTM/Train_Test_ABLSTM/model/}
 ## 4.1 Generate your TCB label and WSR label  
 Scripts for generating ground truth have been provided in the ${AB-LSTM/Label_generate}. You can use our code to generate you own training labels on different public datasets (e.g. ICDAR2013, MSRA-TD500, CTW1500, and Total-text, etc.).
 
-## 4.2 Train your own model
+## 4.2 Data Augmentation
+We use “ImageDataGenerator” in “keras.preproces-sing.image” to achieve data augmentation.
+cd ${AB-LSTM/Data_aug}
+
+You must modify the parameters image_save_prefix and mask_save_prefix in the trainGenerator function. Note that you must use an absolute path, such as: image_save_prefix = "/data1/XXX/aug_dataset/Aug_example/train_aug/aug",mask_save_prefix = "/data1/XXX/aug_dataset/Aug_example /train_gt_aug/aug".
+
+** There are some samples:
+![image](https://github.com/lzd0825/AB-LSTM/blob/master/Data_Aug/Aug_exmple/data_aug.jpg)
+
+
+## 4.3 Train your own model
 Modify ${AB-LSTM/Train_Test_ABLSTM/TD_ICDAR2013_TCB.py, and TD_Total_Text_WSR.py} to configure your dataset name and dataset path like:  
 ......  
 data_params['root'] = "./AB-LSTM/Train_Test_ABLSTM/datasets/Total_Text_WSR/"
 data_params['source'] = "Total_Text_WSR.lst"  
 ......
 
-## 4.3 Start training
+## 4.4 Start training
 
 You can do as follow:
 ```

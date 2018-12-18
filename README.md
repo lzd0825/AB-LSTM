@@ -84,4 +84,16 @@ sh ./train_ICDAR2013_TCB.sh
 sh ./train_Total_Text_WSR.sh
 
 ```
+## Citation
+Use this bibtex to cite this repository:
+```
+@misc{liu_AB-LSTM_2018,
+  title={AB-LSTM: Attention-Based Bidirectional LSTM Model for Scene Text Detection},
+  author={Zhandong Liu, Wengang Zhou, Houqiang Li},
+  year={2018},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/lzd0825/AB-LSTM/}},
+}
+```
 # Acknowlegement

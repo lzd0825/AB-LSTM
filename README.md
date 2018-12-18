@@ -1,5 +1,5 @@
-Code for the TOMM paper: AB-LSTM: Attention-Based Bidirectional LSTM Model for
-Scene Text Detection, by Zhandong Liu, Wengang Zhou and Houqiang Li.  
+# AB-LSTM: Attention-Based Bidirectional LSTM Model for Scene Text Detection
+By Zhandong Liu, Wengang Zhou and Houqiang Li.  
 
 # 1. Introduction
 This project contains the following source files: model training and testing, text center block label and word stroke area label generation, and sample models that have been trained.

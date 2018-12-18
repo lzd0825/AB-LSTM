@@ -1,0 +1,1 @@
+* Download the [TD_ICDAR2013_TCB_iter_50000.caffemodel](https://pan.baidu.com/s/1ZbFKsXmGbSfzWSnZ9WBx4w), finute trained on ICDAR2013 training dataset.  

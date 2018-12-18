@@ -1,0 +1,1 @@
+* Download the [TD_Total_Text_WSR_iter_175000.caffemodel](https://pan.baidu.com/s/14fg4tR0dim_OiMC7siBtnw), trained on Total-text training dataset.

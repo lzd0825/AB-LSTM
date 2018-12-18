@@ -78,7 +78,7 @@ You must modify the parameters image_save_prefix and mask_save_prefix in the tra
 ## There are some samples on data augmentation:
 ![image](https://github.com/lzd0825/AB-LSTM/blob/master/Data_Aug/Aug_exmple/data_aug.jpg)
 
-
+<img src="https://github.com/lzd0825/AB-LSTM/blob/master/Data_Aug/Aug_exmple/data_aug.jpg" width=50%>
 ## 4.3 Train your own model
 Modify ${AB-LSTM/Train_Test_ABLSTM/TD_ICDAR2013_TCB.py, and TD_Total_Text_WSR.py} to configure your dataset name and dataset path like:  
 ......  

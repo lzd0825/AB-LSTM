@@ -2,13 +2,24 @@
 By Zhandong Liu, Wengang Zhou and Houqiang Li.  
 
 # 1. Introduction
-This project contains the following source files: model training and testing, text center block label and word stroke area label generation, and sample models that have been trained.
+This project contains the following source files: model training and testing, text center block label and word stroke region label generation, label augmentation, and sample models that have been trained.
 # 2. Installation
 * Clone the repo  
 ```
 git clone https://github.com/lzd0825/AB-LSTM.git
 cd ./AB-LSTM
 ```
+* Requirements for `Caffe` and `pycaffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
+
+  **Note:** Caffe *must* be built with support for Python layers!
+
+  ```make
+  # In your Makefile.config, make sure to have this line uncommented
+  WITH_PYTHON_LAYER := 1
+  # Unrelatedly, it's also recommended that you use CUDNN
+  USE_CUDNN := 1
+  ```
+  
 * Then you can do as follow:
 ```
 cd ./AB-LSTM/Train_Test_ABLSTM/caffe/}  

@@ -79,6 +79,7 @@ You must modify the parameters image_save_prefix and mask_save_prefix in the tra
 Modify ${AB-LSTM/Train_Test_ABLSTM/TD_ICDAR2013_TCB.py, and TD_Total_Text_WSR.py} to configure your dataset name and dataset path like:  
 ......  
 data_params['root'] = "./AB-LSTM/Train_Test_ABLSTM/datasets/Total_Text_WSR/"
+
 data_params['source'] = "Total_Text_WSR.lst"  
 ......
 

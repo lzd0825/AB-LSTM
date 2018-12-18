@@ -64,7 +64,7 @@ cd ${AB-LSTM/Data_aug}
 
 You must modify the parameters image_save_prefix and mask_save_prefix in the trainGenerator function. Note that you must use an absolute path, such as: image_save_prefix = "/data1/XXX/aug_dataset/Aug_example/train_aug/aug",mask_save_prefix = "/data1/XXX/aug_dataset/Aug_example /train_gt_aug/aug".
 
-** There are some samples:
+## There are some samples on data augmentation:
 ![image](https://github.com/lzd0825/AB-LSTM/blob/master/Data_Aug/Aug_exmple/data_aug.jpg)
 
 

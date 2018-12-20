@@ -43,7 +43,7 @@ python Demo_forword_TCB.py
 python Demo_forword_WSR.py  
 ```
 ## 3.2 There are some samples:  
-<div align=center><img src="https://github.com/lzd0825/AB-LSTM/blob/master/Demo_Text_detection/Data/Forword/some_forwords.jpg" width=80%></div>
+<div align=center><img src="https://github.com/lzd0825/AB-LSTM/blob/master/Demo_Text_detection/Data/Forword/some_forwords.jpg" width=70%></div>
 
 ## 3.3 Threshold WSR/TCB maps:
 You can do as follow:
@@ -57,7 +57,7 @@ You can do as follow:
 python Demo_region_word.py
 ```
 ## 3.5 There are some samples:
-<div align=center><img src="https://github.com/lzd0825/AB-LSTM/blob/master/Demo_Text_detection/Data/save_detection/some_results.jpg" width=80%></div>
+<div align=center><img src="https://github.com/lzd0825/AB-LSTM/blob/master/Demo_Text_detection/Data/save_detection/some_results.jpg" width=70%></div>
  
 # 4. Training
 Download the pretrained model [vgg16convs.caffemodel](https://pan.baidu.com/s/1IEt48THcdmncH2zoeokypA), and put it to 
@@ -73,7 +73,7 @@ cd ${AB-LSTM/Data_aug}
 You must modify the parameters image_save_prefix and mask_save_prefix in the trainGenerator function. Note that you must use an absolute path, such as: image_save_prefix = "/data1/XXX/aug_dataset/Aug_example/train_aug/aug",mask_save_prefix = "/data1/XXX/aug_dataset/Aug_example /train_gt_aug/aug".
 
 ## There are some samples on data augmentation:
-<div align=center><img src="https://github.com/lzd0825/AB-LSTM/blob/master/Data_Aug/Aug_exmple/data_aug.jpg" width=80%></div>
+<div align=center><img src="https://github.com/lzd0825/AB-LSTM/blob/master/Data_Aug/Aug_exmple/data_aug.jpg" width=70%></div>
 
 ## 4.3 Train your own model
 Modify ${AB-LSTM/Train_Test_ABLSTM/TD_ICDAR2013_TCB.py, and TD_Total_Text_WSR.py} to configure your dataset name and dataset path like:  

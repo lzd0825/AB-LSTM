@@ -1,0 +1,13 @@
+base_lr: 0.000000001
+display: 10
+gamma: 0.1
+iter_size: 5
+lr_policy: "step"
+max_iter: 400000
+momentum: 0.9
+net: "./model/TD_CTW1500_Total_Attention_train.pt"
+snapshot: 5000
+snapshot_prefix: "./snapshot/TD_CTW1500_Total_Attention/TD_CTW1500_Total_Attention"
+solver_mode: GPU
+stepsize: 150000
+weight_decay: 0.0002

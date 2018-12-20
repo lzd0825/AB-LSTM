@@ -36,7 +36,7 @@ cd ../snapshot
 ```
 * Put both trained caffemodels to the fold of ${/AB-LSTM/Train_Test_ABLSTM/snapshot}.  
 
-* Suppose you have downloaded the MSRA-TD500 dataset, execute the following commands to test the model on MSRA-TD500.  Then you can do as follow:
+* Suppose you have downloaded the test datasets, execute the following commands to test the model on the test datasets.  Then you can do as follow:
 ```
 cd ../Demo  
 python Demo_forword_TCB.py  
